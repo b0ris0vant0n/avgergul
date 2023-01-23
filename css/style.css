@@ -20,7 +20,7 @@ body {
     font-size: 12px;
 
 }
-@media (min-width: 391px) {
+@media (orientation: landscape) {
     .banner {
     display: flex;
     background-image: url("../images/838A0712.jpeg");
@@ -37,7 +37,7 @@ body {
 }
 }
 
-@media (max-width: 390px) {
+@media (orientation: portrait)  {
     .banner {
         display: flex;
         background-image: url("../images/IMG_1473iphone.jpg");
