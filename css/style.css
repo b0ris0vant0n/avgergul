@@ -87,28 +87,41 @@ body {
 
 }
 .e-mail {
+    display: flex;
+    height: 40px;
     width: 40px;
-    background-color: white;
+    background-color: black;
     border-radius: 50%;
-    opacity: 0.8;
+    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+}
+
+.e-mail img {
+    height: 34px;
+
 }
 
 
 .e-mail:hover {
-    width: 43px;
     opacity: 0.9;
 }
 
 .telegram {
+    height: 40px;
     width: 40px;
     background-color: white;
     border-radius: 50%;
-    opacity: 0.8;
+    opacity: 0.7;
 
 }
 
+.telegram img {
+    height: 40px;
+}
+
 .telegram:hover {
-    width: 43px;
+
     opacity: 0.9;
 
 }
