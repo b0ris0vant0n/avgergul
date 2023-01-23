@@ -1,0 +1,114 @@
+
+@font-face {
+    font-family: 'Charger';
+    src: url('../fonts/Charger-XRDo.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Charger', sans-serif;
+    color: #000000;
+    font-weight: normal;
+    font-style: normal;
+    max-width: 1920px;
+    max-height: 1080px;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 12px;
+
+}
+@media (min-width: 391px) {
+    .banner {
+    display: flex;
+    background-image: url("/images/838A0712.jpeg");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    filter: grayscale(100%);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+}
+
+@media (max-width: 390px) {
+    .banner {
+        display: flex;
+        background-image: url("/images/IMG_1473iphone.jpg");
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        filter: grayscale(100%);
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+.banner h1 {
+    color: black;
+    z-index: 3;
+    font-size: 3em;
+    color: white;
+}
+.banner:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 1;
+
+}
+
+.contact {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 3;
+    padding-top: 7em;
+
+}
+.e-mail {
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+
+.e-mail:hover {
+    width: 43px;
+    opacity: 0.9;
+}
+
+.telegram {
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+
+}
+
+.telegram:hover {
+    width: 43px;
+    opacity: 0.9;
+
+}
