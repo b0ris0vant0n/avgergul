@@ -23,7 +23,7 @@ body {
 @media (min-width: 391px) {
     .banner {
     display: flex;
-    background-image: url("/images/838A0712.jpeg");
+    background-image: url("../images/838A0712.jpeg");
     background-size: cover;
     position: absolute;
     width: 100%;
@@ -40,7 +40,7 @@ body {
 @media (max-width: 390px) {
     .banner {
         display: flex;
-        background-image: url("/images/IMG_1473iphone.jpg");
+        background-image: url("../images/IMG_1473iphone.jpg");
         background-size: cover;
         position: absolute;
         width: 100%;
